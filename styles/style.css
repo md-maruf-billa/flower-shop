@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0;
+}
+
+button {
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+}
+
+header {
+    width: 75%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 240px;
+}
+
+.header-content {
+    width: 708px;
+}
+
+.header-content h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+.header-image {
+    width: 635px;
+    height: 800px;
+}
+
+
+
+
+
+.product-section {
+    width: 75%;
+    max-width: 1440px;
+    margin: 178px auto;
+
+}
+
+.product-image-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.product-section .product-image .product-image-info {
+    width: 464px;
+}
+
+.product-section .product-image .product-image-info .product {
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.color-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.color-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.color-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.product-contain {
+    width: 594px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product-image-info h5 {
+    margin-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+
+
+
+.services {
+    width: 70%;
+    max-width: 1140px;
+    display: flex;
+    margin: 128px auto;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+.services .our-services {
+    text-align: center;
+    padding: 86px 0;
+}
+
+
+
+
+.hot-deal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 400px;
+}
+
+.hot-deal .hot-deal-content {
+    max-width: 537px;
+    text-align: center;
+}
+
+.hot-deal-image {
+    width: 318px;
+    height: 420px;
+}
+
+
+
+.instagram {
+    width: 75%;
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+.instagram .ins-content {
+    width: 595px;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.instagram .ins-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px
+}
+
+.instagram .ins-image .ins-img {
+    width: 342px;
+    height: 396px;
+}
+
+
+
+
+.subscribe {
+    width: 75%;
+    max-width: 1440px;
+    margin: 50px auto;
+    background: url('../images/Rectangle\ 9.png') no-repeat;
+    background-size: cover;
+    padding: 80px 80px;
+}
+
+.subscribe-content {
+    text-align: center;
+}
+
+.subscribe-form input {
+    font-size: 26px;
+    background-color: white;
+    color: blue;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.subscribe-form {
+    text-align: center;
+}
+
+
+
+footer {
+    background: url('../images/Rectangle\ 7.png');
+}
+
+.footer-content {
+    width: 625px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 51px 651px 205px 646px;
+}
+
+.footer-content h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.footer-content span {
+    color: #E55473;
+    font-size: 48px;
+}
+
+.footer-content p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
